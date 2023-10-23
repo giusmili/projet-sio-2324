@@ -1,0 +1,53 @@
+header h1{
+    text-align: center;
+    line-height: 8rem;
+}
+section{
+    position: sticky;
+    left: 0;
+    top: 0;
+    display: grid;
+    max-width: 120rem;
+    height: 100vh;
+    margin : 0 auto 1rem;
+    background: #ccc;
+    padding: 1rem;
+    align-items: center;
+    
+}
+section h2{
+    text-align: center;
+}
+section:nth-of-type(2){
+    background: #f7c7c7;
+}
+section:nth-of-type(3){
+    background: #86a3e8;
+}
+@media  screen and (max-width: 120rem){
+    header h1{
+        font-size: 5vw;
+        color:#86a3e8;
+    }
+    body{
+        margin: 0 1%;
+    }
+   
+}
+@media  screen and (orientation:landscape){
+    section{
+        position: sticky;
+        left: 0;
+        top: 0;
+        display: grid;
+        max-width: 120rem;
+        height: 100vh;
+        margin : 0 auto 1rem;
+        background: #ccc;
+        padding: 1rem;
+        align-items: center;
+    }
+    header h1{
+        font-size: 3.5rem;
+    }
+}

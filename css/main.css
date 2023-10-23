@@ -1,0 +1,61 @@
+/* reset : mettre à 0 toutes les propriété du navigateur */
+html{
+    font-size: 62.5%; 
+    /* 
+    taille de la police de caractère
+    62.5% * 16 = 10.00rem = root em
+    */
+}
+body{
+    font: 1.6rem sans-serif; /* taille + police 1.6rem */
+    margin: 0;
+    letter-spacing: 0.1rem; /* 1px */
+    line-height: 1.6; /* 16px */
+    background-color: #2b2a33;
+    color: #fff;
+}
+h1,h2,h3,p,ul{ /* contexte de balises ayant les mêmes props */
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    list-style: none;
+}
+button{
+    padding: 0;
+    background-color: transparent;
+    font-size: inherit;
+    border: 0;
+}
+a{
+    text-decoration: none;
+    color: rgb(121, 98, 235);
+    
+}
+/* theme css */
+
+header > h1{
+    background-color: rgba(0, 150, 136,1.0);
+    text-align: center;
+    line-height: 8rem;
+    font-weight:bolder;
+    font-size: 4rem;
+    color: #fff;
+}
+header > h1 span{
+    vertical-align: 0.5rem; /* 5px */
+}
+section{
+    max-width: 100rem; /* 1200px */
+    margin: 5rem auto;
+    background-color: #42414d;
+    padding: 1rem;
+}
+section h2, 
+section p{
+  background-color: #2b2a33;
+  color: inherit;
+  padding: 1rem; 
+}
+section p{
+    margin-top: 1rem;
+}
