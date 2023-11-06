@@ -24,10 +24,11 @@ h1,h2,h3,p,ul{ /* contexte de balises ayant les mêmes props */
 :root{
     --theme-bg-color: #2b2a33;
     --theme-text-color: #fff;
-    --theme-link-color: rgb(234, 76, 23);
+    --theme-link-color: rgb(17, 16, 15);
     --theme-header-bg: rgba(0, 150, 136,1.0);
-    --theme-btn-primary: #ccc;
-    --theme-btn-secondary: #fafafa;
+    --theme-btn-primary: rgb(9, 132, 225);
+    --theme-btn-secondary: rgb(222, 161, 236);
+    --theme-btn-default: #ccc;
 
 }
 button{
@@ -43,6 +44,28 @@ a{
 }
 /* theme css */
 
+.btn-theme-g{
+    display: inline-block;
+    width: 20rem; /* 200px */
+    line-height: 3rem;
+    padding: 1rem;
+    background-color: var(--theme-btn-secondary);
+    text-align: center;
+    margin-right: .7rem;
+    color: var(--theme-link-color);
+}
+.btn-info{
+    padding:0 .7rem;
+    color: var(--theme-text-color);
+}
+.btn-primary{
+    background-color: var(--theme-btn-primary);
+    color: #fff;
+}
+.btn-secondary{
+    background-color: var(--theme-btn-secondary);
+    color: inherit;
+}
 header > h1{
     background-color:var(--theme-header-bg);
     text-align: center;
