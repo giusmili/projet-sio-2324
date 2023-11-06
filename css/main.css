@@ -26,7 +26,7 @@ h1,h2,h3,p,ul{ /* contexte de balises ayant les mêmes props */
     --theme-text-color: #fff;
     --theme-link-color: rgb(17, 16, 15);
     --theme-header-bg: rgba(0, 150, 136,1.0);
-    --theme-btn-primary: rgb(9, 132, 225);
+    --theme-btn-primary: #0a60e0;
     --theme-btn-secondary: rgb(222, 161, 236);
     --theme-btn-default: #ccc;
 
@@ -53,6 +53,8 @@ a{
     text-align: center;
     margin-right: .7rem;
     color: var(--theme-link-color);
+    text-transform: uppercase;
+    border-radius: .4rem;
 }
 .btn-info{
     padding:0 .7rem;
@@ -64,7 +66,7 @@ a{
 }
 .btn-secondary{
     background-color: var(--theme-btn-secondary);
-    color: inherit;
+    color: var(--theme-link-color);
 }
 header > h1{
     background-color:var(--theme-header-bg);
