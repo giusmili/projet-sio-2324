@@ -51,7 +51,7 @@ a{
     padding: 1rem;
     background-color: var(--theme-btn-secondary);
     text-align: center;
-    margin-right: .7rem;
+    margin-right: 1rem;
     color: var(--theme-link-color);
     text-transform: uppercase;
     border-radius: .4rem;
@@ -92,7 +92,7 @@ section p{
   padding: 1rem; 
 }
 section p{
-    margin-top: 1rem;
+    margin: 0 0 1rem 0;
 }
 
 section p img{
